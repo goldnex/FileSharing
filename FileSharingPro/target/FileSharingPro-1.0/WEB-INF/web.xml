@@ -1,0 +1,78 @@
+<web-app>
+	<multipart-config>
+      		<max-file-size>3145728</max-file-size>
+      		<max-request-size>5242880</max-request-size>
+    	</multipart-config>
+		
+	<servlet>
+                <servlet-name>DownloadServlet</servlet-name>
+                <servlet-class>net.coursework.app.DownloadServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>DownloadServlet</servlet-name>
+                <url-pattern>/DownloadServletPage</url-pattern>
+        </servlet-mapping>
+
+	<servlet>
+                <servlet-name>GeneralDirectoryServlet</servlet-name>
+                <servlet-class>net.coursework.app.GeneralDirectory</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>GeneralDirectoryServlet</servlet-name>
+                <url-pattern>/GeneralDirectoryPage</url-pattern>
+        </servlet-mapping>
+
+	<servlet>
+                <servlet-name>LoginServlet</servlet-name>
+                <servlet-class>net.coursework.app.Login</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>LoginServlet</servlet-name>
+                <url-pattern>/LoginPage</url-pattern>
+        </servlet-mapping>
+
+	<servlet>
+                <servlet-name>LogoutServlet</servlet-name>
+                <servlet-class>net.coursework.app.Logout</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>LogoutServlet</servlet-name>
+                <url-pattern>/LogoutPage</url-pattern>
+        </servlet-mapping>
+
+	<servlet>
+                <servlet-name>MainServlet</servlet-name>
+                <servlet-class>net.coursework.app.Main</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>MainServlet</servlet-name>
+                <url-pattern>/MainPage</url-pattern>
+        </servlet-mapping>
+
+	<servlet>
+                <servlet-name>MessagesServlet</servlet-name>
+                <servlet-class>net.coursework.app.Messages</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>MessagesServlet</servlet-name>
+                <url-pattern>/MessagesPage</url-pattern>
+        </servlet-mapping>
+	
+	<servlet>
+                <servlet-name>MyDirectoryServlet</servlet-name>
+                <servlet-class>net.coursework.app.MyDirectory</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>MyDirectoryServlet</servlet-name>
+                <url-pattern>/MyDirectoryPage</url-pattern>
+        </servlet-mapping>
+
+	<servlet>
+                <servlet-name>RegistrationServlet</servlet-name>
+                <servlet-class>net.coursework.app.Registration</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>RegistrationServlet</servlet-name>
+                <url-pattern>/RegistrationPage</url-pattern>
+        </servlet-mapping>
+</web-app>

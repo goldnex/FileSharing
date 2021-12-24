@@ -1,0 +1,13 @@
+net/coursework/app/Messages.class
+net/coursework/app/ChatObject.class
+net/coursework/app/User.class
+net/coursework/app/DataBase.class
+net/coursework/app/MyDirectory.class
+net/coursework/app/Chat.class
+net/coursework/app/Main.class
+net/coursework/app/GeneralDirectory.class
+net/coursework/app/Registration.class
+net/coursework/app/Logout.class
+net/coursework/app/Package.class
+net/coursework/app/Login.class
+net/coursework/app/DownloadServlet.class
